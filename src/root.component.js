@@ -1,3 +1,8 @@
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+    <div>
+      <h1>NavBAR</h1>
+      <section>{props.name} is mounted!</section>
+    </div>
+  );
 }
