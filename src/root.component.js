@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Root = (props) => {
   const [key, setKey] = useState("home");
